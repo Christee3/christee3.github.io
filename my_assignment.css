@@ -1,0 +1,18 @@
+.button{
+    background-color: blue;
+    margin-top: 16px;
+    padding: 8px;
+    border: 1px solid hsl(71, 73%, 54%);
+    color: black;
+    border-radius: 4px;
+    width: 50px;
+  }
+  .button2{
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 16px;
+    padding: 8px;
+    border: 1px solid hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+  }

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #dedede;
+  height: 100vh;
+}
+
+.container {
+  width: 550px;
+}
+
+.top-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 20px;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.top-text {
+  color: hsl(218, 22%, 67%);
+}
+
+.bottom-container {
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.bottom-left, .bottom-right {
+  background-color: hsl(179, 62%, 43%);
+  padding: 24px 32px;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 8px;
+}
+
+.bottom-right {
+  background-color: rgba(42, 178, 175, 0.7);
+}
+
+.bottom-right {
+  border-bottom-right-radius: 8px;
+}
+
+.big-text {
+  font-size: 30px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.big-text span {
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  font-size: 14px;
+  color: hsl(204, 43%, 93%);
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid hsl(71, 73%, 54%);
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+}
